@@ -21,6 +21,25 @@ chk3.onclick = function () {
     }
 }
 
+function hidechecked1(){
+    if(document.getElementById('chk1').checked){
+        document.getElementById('chk1').style.display = 'none';
+    }
+}
+
+function hidechecked2(){
+    if(document.getElementById('chk2').checked){
+        document.getElementById('chk2').style.display = 'none';
+    }
+}   
+
+function hidechecked3(){
+    if(document.getElementById('chk3').checked){
+        document.getElementById('chk3').style.display = 'none';
+    }
+}
+
+
 /* Botão SPIN */
 
 spin.onclick = function () {

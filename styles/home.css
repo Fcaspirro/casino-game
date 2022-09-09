@@ -218,6 +218,7 @@ h2 {
 .box label input {
     position: relative;
     appearance: none;
+    z-index: -1;
 }
 
 .box label i {
@@ -372,6 +373,10 @@ button {
 
 @media (max-width: 1200px) {
 
+    h2 {
+        margin-bottom: 0px;
+    }
+
     .square {
         width: 359.5px;
         height: 170px;
@@ -402,6 +407,12 @@ button {
     .box label i {
         background-size: 120px;
     }
+
+    .spin {
+        margin-top: 25px; 
+        font-size: 1.60em;
+        padding: 15px 40px; 
+    }   
 }
 
 @media (max-width: 992px) {
@@ -420,7 +431,7 @@ button {
 
     h2 {
         font-size: xx-large;
-        margin-bottom: 20px;
+        margin-bottom: 0px;
     }
 
     .game p {
@@ -448,8 +459,8 @@ button {
     }
 
     .spin {
+        margin-top: 20px; 
         font-size: 1.45em;
-        padding: 15px 25px;
-        margin-top: 80px; 
+        padding: 15px 25px; 
     }   
 }
