@@ -18,8 +18,16 @@
   <b>🎞 INTERAÇÃO | <i>Demo</i>
 </h2> 
 
- <div align="center" inline >
-    <img height="375px"  alt="Demo Gif" title="demo" src="/assets/github/demo-cassino.gif"/> 
+<div align="center" inline >
+  <img height="375px"  alt="Demo Gif" title="demo" src="/assets/github/demo-cassino.gif"/> 
+  <p>
+    Interação acima utilizada meramente como exemplo. O jogo real é mais difícil.
+  </p>
+  <em>
+    <h6>
+      The demo above used merely as an example. The real game is more difficult.
+     </h6>  
+  </em>
 </div>
 
 ---
