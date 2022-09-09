@@ -253,17 +253,17 @@ button {
 
 .box label:nth-child(1) i {
     background-image: url(../assets/image/game/left.png);
-    animation: spin 0.8s steps(10) infinite;
+    animation: spin 1.0s steps(10) infinite;
 }
 
 .box label:nth-child(2) i {
     background-image: url(../assets/image/game/middle.png);
-    animation: spin 1s steps(10) infinite;
+    animation: spin 1.2s steps(10) infinite;
 }
 
 .box label:nth-child(3) i {
     background-image: url(../assets/image/game/right.png);
-    animation: spin 0.7s steps(10) infinite;
+    animation: spin 0.9s steps(10) infinite;
 }
 
 
@@ -371,7 +371,7 @@ button {
 }
 
 
-@media (max-width: 1200px) {
+@media screen and (max-width: 1200px) {
 
     h2 {
         margin-bottom: 0px;
@@ -415,14 +415,14 @@ button {
     }   
 }
 
-@media (max-width: 992px) {
+@media screen and (max-width: 992px) {
 
     .fall>div {
         display: none;
     }
 }
 
-@media (max-width: 480px) {
+@media screen and (max-width: 480px) {
 
     .square {
         width: 263.5px;
