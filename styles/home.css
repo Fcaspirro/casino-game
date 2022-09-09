@@ -253,17 +253,17 @@ button {
 
 .box label:nth-child(1) i {
     background-image: url(../assets/image/game/left.png);
-    animation: spin 1.0s steps(10) infinite;
+    animation: spin 1.3s steps(10) infinite;
 }
 
 .box label:nth-child(2) i {
     background-image: url(../assets/image/game/middle.png);
-    animation: spin 1.2s steps(10) infinite;
+    animation: spin 1.5s steps(10) infinite;
 }
 
 .box label:nth-child(3) i {
     background-image: url(../assets/image/game/right.png);
-    animation: spin 0.9s steps(10) infinite;
+    animation: spin 1.2s steps(10) infinite;
 }
 
 
